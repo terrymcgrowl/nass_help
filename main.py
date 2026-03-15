@@ -7,6 +7,7 @@ import sys
 from modules import bot_runner
 from modules.config import get_config
 from modules.database import DatabaseManager
+import healthcheck 
 
 
 def setup_logging() -> None:
